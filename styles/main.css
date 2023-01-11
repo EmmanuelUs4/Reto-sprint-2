@@ -1,0 +1,8 @@
+body {
+    background: url(../imagenes/bodybackground.jpg);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+    content: border-box;
+}

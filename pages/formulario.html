@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Reto  formulario</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="back"><a href="/pages/Main.html">Regresar a la lista de productos</a></h1>
+        <header class="header">
+            <h2 class="titulo">Agregar un producto</h2>
+            
+        </header>
+            <form class="formulario">
+
+                <label for="name" class="name"> Nombre del producto</label>
+                <input type="text" id="name">
+
+                <label for="price" class="price">Precio</label>
+                <input type="number" id="price">
+
+                <label for="amount" class="amount">Cantidad a ingresar</label>
+                <input type="number" id="amount">
+
+                <label for="productType" class="productType">Tipo de producto</label>
+                <select name="productType" id="productType">
+                    <option value="Seleccione">Seleccione</option>
+                    <option value="Cárnico">Cárnico</option>
+                    <option value="Vegetal">Vegetal</option>
+                    <option value="Higiene personal">Higiene personal</option>
+                    <option value="Higiene del hogar">Higiene del hogar</option>
+                    <option value="Electrodoméstico">Electrodoméstico</option>
+                    <option value="Herramienta">Herramienta</option>
+                </select>
+        <button type="submit" class="send">Enviar</button>
+    </form>
+</main>
+    <script src="../scripts/formulario.js">prueba</script>
+</body>
+
+</html>
+
+<!-- select name="" id="" -->
